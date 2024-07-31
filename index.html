@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My_Task</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css"
+    />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+  </head>
+  <body>
+    <header>
+      <div class="navi">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid" style="
+    background-color: lightblue;
+">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="internship.html">Internship</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://cognifyz.com/about-us/">About</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <h4 class="titles">Card Components</h4>
+      <div class="card-components">
+        <section class="section">
+          <div class="container">
+            <div class="columns is-multiline">
+              <div class="column is-one-third">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img
+                        src="images/html.jpg"
+                        alt="Placeholder image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">HTML</p>
+                        <p class="subtitle is-6">Hypertext Markup Language</p>
+                      </div>
+                    </div>
+
+                    <div class="content">
+                      HTML is the standard markup language used to create and structure web pages.
+                      <br />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-one-third">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img
+                        src="images/css.jpg"
+                        alt="Placeholder image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">CSS</p>
+                        <p class="subtitle is-6">Cascading Style Sheets</p>
+                      </div>
+                    </div>
+
+                    <div class="content">
+                      CSS is the style sheet language used to control the presentation of web pages.<br />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-one-third">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img
+                        src="images/js.jpg"
+                        alt="Placeholder image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">JS</p>
+                        <p class="subtitle is-6">JavaScript</p>
+                      </div>
+                    </div>
+
+                    <div class="content">
+                      JavaScript is a programming language that adds interactivity to web pages.
+                    <br/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Repeat the column for more cards -->
+            </div>
+          </div>
+        </section>
+      </div>
+      <h4 class="titles">Image Slideshow</h4>
+      <div class="slides" style="margin: 0 7%;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="inner-slide">
+                <img src="images/web1.jpg" class="d-block w-100" alt="Slide 1">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="inner-slide">
+                <img src="images/web2.jpg" class="d-block w-100" alt="Slide 2">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="inner-slide">
+                <img src="images/web3.jpg" class="d-block w-100" alt="Slide 3">
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <h4 class="titles">Grid Image Gallery </h4>
+      <div class="containers">
+        <div class="grid-item">
+          <div class="gallery-item">
+            <img
+              src="images/grid1.jpg"
+              alt="Web Development"
+              onclick="expandImage(this);"
+            />
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="gallery-item">
+            <img
+              src="images/grid2.jpg"
+              alt="Web Development"
+              onclick="expandImage(this);"
+            />
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="gallery-item">
+            <img
+              src="images/grid3.jpg"
+              alt="Web Development"
+              onclick="expandImage(this);"
+            />
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="gallery-item">
+            <img
+              src="images/grid4.jpg"
+              alt="Web Development"
+              onclick="expandImage(this);"
+            />
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="gallery-item">
+            <img
+              src="images/grid5.jpg"
+              alt="Web Development"
+              onclick="expandImage(this);"
+            />
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="gallery-item">
+            <img
+              src="images/grid6.jpg"
+              alt="Web Development"
+              onclick="expandImage(this);"
+            />
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="gallery-item">
+            <img
+              src="images/grid7.jpg"
+              alt="Web Development"
+              onclick="expandImage(this);"
+            />
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="gallery-item">
+            <img
+              src="images/grid8.jpg"
+              alt="Web Development"
+              onclick="expandImage(this);"
+            />
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="gallery-item">
+            <img
+              src="images/grid9.jpg"
+              alt="Web Development"
+              onclick="expandImage(this);"
+            />
+          </div>
+        </div>
+        <div class="modal" id="modal" onclick="closeModal();">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImage" style="
+            margin-top: 5%;">
+            <div id="caption"></div>
+        </div>
+      </div>
+    </main>
+    
+    <script>
+        function expandImage(img) {
+            var modal = document.getElementById("modal");
+            var modalImg = document.getElementById("modalImage");
+            var captionText = document.getElementById("caption");
+
+            modal.style.display = "block";
+            modalImg.src = img.src.replace('150', '600'); // Change the URL to a higher resolution if available
+            captionText.innerHTML = img.alt;
+        }
+
+        function closeModal() {
+            var modal = document.getElementById("modal");
+            modal.style.display = "none";
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
